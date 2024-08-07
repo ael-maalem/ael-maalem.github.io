@@ -13,9 +13,7 @@ const path = withBase(theme.blog?.tagsPath ?? '/blog/tags')
 </script>
 
 <template>
-  <span
-    class="bg-primary-100 inline-flex items-center rounded text-sm font-medium"
-  >
+  <span class="bg-primary-100 inline-flex items-center rounded text-sm font-medium">
     <VPBPostCategory :category="post.category"></VPBPostCategory>
   </span>
   <span class="bg-primary-100 inline-flex rounded text-sm font-medium">

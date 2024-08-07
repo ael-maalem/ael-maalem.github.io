@@ -10,9 +10,7 @@ function getDateTime() {
 <template>
   <dl>
     <dt class="sr-only">Published on</dt>
-    <dd
-      class="text-base font-medium leading-6 text-gray-500 dark:text-gray-300"
-    >
+    <dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-300">
       <time :datetime="getDateTime()">{{ post.date.formatted }}</time>
     </dd>
   </dl>

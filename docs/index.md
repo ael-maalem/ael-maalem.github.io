@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: VitePress Blog
-titleTemplate: VitePress Blog Theme
+title: Portfolio Blog
+titleTemplate: Portfolio Blog Theme
 
 hero:
   name: VitePress Blog

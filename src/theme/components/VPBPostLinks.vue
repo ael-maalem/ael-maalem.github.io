@@ -20,9 +20,7 @@ const path = withBase(theme.blog?.path ?? '/blog/')
     :class="{ 'xs:show lg:hidden': insideDoc }"
   >
     <div v-if="nextPost" class="py-3">
-      <h2 class="text-xs uppercase tracking-wide text-gray-500 dark:text-white">
-        Next Article
-      </h2>
+      <h2 class="text-xs uppercase tracking-wide text-gray-500 dark:text-white">Next Article</h2>
       <div class="link">
         <a :href="`${nextPost.url}`">{{ nextPost.title }}</a>
       </div>

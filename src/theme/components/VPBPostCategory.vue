@@ -11,10 +11,7 @@ const { theme } = useData<VPBThemeConfig>()
 <template>
   <div>
     <div
-      v-if="
-        theme.blog?.categoryIcons &&
-        theme.blog.categoryIcons[category.toLowerCase()]
-      "
+      v-if="theme.blog?.categoryIcons && theme.blog.categoryIcons[category.toLowerCase()]"
       :class="theme.blog.categoryIcons[category.toLowerCase()]"
       class="mr-2"
     />

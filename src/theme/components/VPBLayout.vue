@@ -7,6 +7,7 @@ import VPBLayoutPostAsideTop from './VPBLayoutPostAsideTop.vue'
 import VPBLayoutPostAsideBottom from './VPBLayoutPostAsideBottom.vue'
 import VPBLayoutAuthorAsideBottom from './VPBLayoutAuthorAsideBottom.vue'
 import VPBLayoutAuthorTop from './VPBLayoutAuthorTop.vue'
+import VPBLayoutTwitterAsideAdsAfter from './VPBLayoutTwitterAsideAdsAfter.vue'
 
 const { Layout } = DefaultTheme
 const { frontmatter } = useData()
@@ -28,5 +29,17 @@ const { frontmatter } = useData()
       <VPBLayoutPostAsideBottom v-if="frontmatter.blog === 'post'" />
       <VPBLayoutAuthorAsideBottom v-if="frontmatter.blog === 'author'" />
     </template>
+    <template #aside-ads-after>
+      <VPBLayoutTwitterAsideAdsAfter></VPBLayoutTwitterAsideAdsAfter>
+    </template>
+    <!--    <template #aside-ads-before>-->
+    <!--      <VPBLayoutTwitterAsideAdsAfter></VPBLayoutTwitterAsideAdsAfter>-->
+    <!--    </template>-->
+    <!--    <template #aside-outline-before>-->
+    <!--      <VPBLayoutTwitterAsideAdsAfter ></VPBLayoutTwitterAsideAdsAfter>-->
+    <!--    </template>-->
+    <!--    <template #aside-outline-after>-->
+    <!--      <VPBLayoutTwitterAsideAdsAfter ></VPBLayoutTwitterAsideAdsAfter>-->
+    <!--    </template>-->
   </Layout>
 </template>

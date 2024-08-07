@@ -2,6 +2,8 @@
 import { useData } from 'vitepress'
 import { usePosts } from '../composables/usePosts'
 import VPBHomePost from './VPBHomePost.vue'
+import TwitterFeed from './VPBLayoutTwitterAsideAdsAfter.vue'
+import VPBLayoutTwitterAsideAdsAfter from './VPBLayoutTwitterAsideAdsAfter.vue'
 
 const { posts } = usePosts()
 
@@ -27,5 +29,6 @@ const { theme } = useData()
         <VPBHomePost :post="post" />
       </div>
     </div>
+    <VPBLayoutTwitterAsideAdsAfter></VPBLayoutTwitterAsideAdsAfter>
   </div>
 </template>

@@ -2,6 +2,7 @@
 import { usePosts } from '../composables/usePosts'
 import VPBPostDate from './VPBPostDate.vue'
 import VPBPostDetails from './VPBPostDetails.vue'
+import TwitterFeed from './VPBLayoutTwitterAsideAdsAfter.vue'
 
 const { post } = usePosts()
 </script>
