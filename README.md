@@ -2,7 +2,7 @@
 
 ## @jcamp/vitepress-blog-theme
 
-[![npm](https://img.shields.io/npm/v/@jcamp/vitepress-blog-theme)](https://www.npmjs.com/package/@jcamp/vitepress-blog-theme)
+[![npm](https://img.shields.io/npm/v/@jcamp/vitepress-blog-theme)](https://www.npmjs.com/package/@jcamp/vitepress-blog-theme) [![.github/workflows/main.yml](https://github.com/ael-maalem/ael-maalem.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/ael-maalem/ael-maalem.github.io/actions/workflows/main.yml)
 
 ---
 
